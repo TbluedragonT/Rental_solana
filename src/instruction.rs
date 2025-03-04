@@ -19,7 +19,7 @@ pub enum RentShareInstruction {
 
     /// Pay rent from payee to payer
     ///
-    /// Accounts expected:
+    /// Accounts expected::
     /// 0. `[writable]` The Rent Agreement account created to manage state across 2 parties; owned by program id.
     /// 1. `[signer]` Payer (Renter) account (keypair)
     /// 2. `[]` Payee (Owner) account (public key)
